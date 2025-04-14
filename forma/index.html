@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Pildymo forma</title>
+   </head>
+
+<body>
+   <strong>Pildymo forma</strong><br>
+   <br>
+   <small>Uzpildyti laukelius su *</i>
+   <br>
+   <br>
+   <form action="http://localhost:8080/kontaktai" method="POST" target="_blank">
+      <label for="fn">Vardas:  *</label>
+      <input name="firstname" type="text" id="fn" required />
+      <br>
+      <label for="eml">E Pastas: *</label>
+      <input name="firstname" type="email" id="eml" required /><br>
+      <label for="passw">Slaptazodis: *</label>
+      <input name="firstname" type="email" id="passw" required /><br>
+   <strong>Mokejimo kortele</strong><br>
+      <label for="tipas">Kortele</label>
+      <select name="cars" id="tipas">
+          <option value="tp1">VISA</option>
+          <option value="tp2">SEB</option>
+          <option value="tp3">Revolut</option>
+          <option value="tp4">Paysera</option>
+      </select>
+      <br>
+      <label for="zinute">Tavo komentaras</label>
+      <br>
+      <textarea name="message" rows="2" cols="15" id="zinute">
+   Tavo zinute.
+    </textarea>
+      <hr>
+      <button type="button" onclick="alert('Pausk Siusti')">Labas!</button>
+      <br>
+      <input value="Siųsti" type="submit" />
+  </form>
+</body>
+     
+ 
+<ul id="navigacija">
+   <li class="meniu-item"><a href="">Meniu elementas 1</a></li>
+</ul>     
