@@ -4,8 +4,7 @@ let trecias = 0;
 
 if (pirmas > antras) {
     console.log (" pirmas didesnis "); 
-}
-else if (antras > trecias) {
+} else if (antras > trecias) {
     console.log (" antras didesnis ");
 }
 else if ( trecias > pirmas ) {
