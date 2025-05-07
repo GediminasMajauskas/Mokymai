@@ -1,0 +1,21 @@
+nav > a {
+    padding: 0 10px;
+    border-left: 3px solid red;
+    line-height: 30px;
+}
+
+nav > a:last-child {
+    border-left: 3px solid red;
+}
+
+@media only screen and (max-widh 800px) {
+    .desktop {
+        display: none;
+    }
+}
+
+media only screen and (min-widh 800px) {
+    .desktop {
+        display: none;
+    }
+}
