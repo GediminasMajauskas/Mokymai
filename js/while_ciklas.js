@@ -1,3 +1,5 @@
+//1 uzdavinys
+
 // let skaicius = 1;
 
 // while (skaicius <= 20) {
@@ -6,7 +8,7 @@
 // }
 //     console.log('___________________');
 
-// antras uzdacinys
+// 2 uzdavinys
 
 // let skaicius1 = 1;
 
@@ -19,6 +21,8 @@
 //     skaicius1++;
 // }
 
+// 3 uzdavinys
+
 // let skaicius2 = 25;
 
 // while (skaicius2 <= 50) {
@@ -28,7 +32,7 @@
 //     } skaicius2++;
 // }
 
-// trecias uzdavinys 
+// 4 uzdavinys 
 
 let skaicius3 = 1
 
