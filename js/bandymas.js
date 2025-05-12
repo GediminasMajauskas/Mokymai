@@ -1,7 +1,7 @@
 let pazim1 = 6
 let pazim2 = 3
 let pazim3 = 9
-let vidurkis = (pazim1 + pazim2 + pazim3) / 3;
+let vidurkis = (pazim1 + pazim2 + pazim) / 3;
     console.log("Pažymių vidurkis:", vidurkis.toFixed(2));
 if (vidurkis >= 8 && vidurkis <= 10) {
     console.log("Vidurkis yra tarp 8 ir 10 (imtinai).");
