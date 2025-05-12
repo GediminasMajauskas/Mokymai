@@ -70,7 +70,7 @@ let programos = ['Fizika', 'Matematika', 'Geografija', 'Biologija', 'Filosofija'
     
         console.log('_________________________');
 
-let salys = ['Lietuva', 'Latvija', 'Estija', 'Lenkyja', 'Vokietyja'];   
+let salys = ['Lietuva', 'Latvija', 'Estija', 'Lenkyja', 'Vokietyja', 'Suomyja'];   
     for(let i = 0; i <salys.length; i++)
             console.log('Šalis:', salys[i]);
         
