@@ -1,0 +1,49 @@
+nav > a {
+    padding: 0 10px;
+    border-left: 3px solid red;
+    /* height: 30px; */
+    line-height: 30px;
+}
+
+nav > a:last-child {
+    border-right: 3px solid red;
+}
+nav {
+    height: 50px;
+}
+
+nav a, nav ul li  {
+    transition: all 500ms;
+}
+
+nav a:hover, nav ul li:hover {
+    scale: 1.15;
+    box-shadow: 5px 5px 5px -3px black;
+    z-index: 9999;
+    /* animation: mano_meniu_animacija 5s; */
+}
+
+@media only screen and (max-width: 1050px) { 
+    .desktop {
+        display: none;
+    }
+ }
+
+@media only screen and (min-width: 1050px) { 
+    .mobile{
+        display: none;
+    }
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+@keyframes mano_meniu_animacija {
+    from {
+        font-size: 1rem;
+    }
+    to {
+        font-size: 2rem;
+    }
+}
