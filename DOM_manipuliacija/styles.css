@@ -1,0 +1,28 @@
+body {
+    background-color: bisque; /* Slightly changed color to match example */
+}
+body > div {
+    background: white;
+    padding: 2em;
+    margin: 5em;
+}
+
+#tryliktas .parametrai {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+#tryliktas .parametras { /* This class is not in the HTML for this section, but based on the screenshot, it should be applied to each parameter group if they were wrapped */
+    width: 30%;
+    padding: 5px 10px;
+}
+
+#div-keitimui {
+    width: 100px; /* Initial width */
+    height: 100px; /* Initial height */
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
