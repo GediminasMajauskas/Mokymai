@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    margin: 0;
+    background: linear-gradient(45deg, #ffcc70, #ff7e7e, #84fab0, #8fd3f4);
+    background-size: 400% 400%;
+    animation: gradientMove 30s ease infinite;
+}
+
+/* animacija */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.skaiciuokle {
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+h1 i {
+    margin-right: 10px;
+    animation: pulse 2s infinite;
+    color: #fff;
+}
+
+/* animacija ikonai */
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.5); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* ikonėlės */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+label i {
+    margin-right: 6px;
+    color: #444;
+}
+
+/* Įvesties laukai */
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Mygtukai */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 48%;
+    background-color: #30a34b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #024b13;
+}
+
+/* mygtukas (reset) */
+button + button {
+    background-color: #dc3545;
+}
+
+button + button:hover {
+    background-color: #68131c;
+}
+
+/* Rezultatai */
+.rezultatai {
+    margin-top: 20px;
+    background-color: #e2e6eb;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+
+
+
