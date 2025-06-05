@@ -21,11 +21,23 @@
         <label><i class="fas fa-layer-group"></i> Kiekis:</label>
         <input type="number" id="kiekis" min="1">
 
-        <label><i class="fas fa-euro-sign"></i> Kaina už 1 m³ (€):</label>
-        <input type="number" id="kaina" min="0" step="0.01" value="">
+        <!-- <label><i class="fas fa-euro-sign"></i> Kaina už 1 m³ (€):</label> -->
+        <label><i class="fas fa-tree"></i> Medienos tipas:</label>
+
+        <select id="kaina">
+            <option value="" disabled selected>Pasirinkite medieną</option>
+            <option value="300">Beržas – 300 €/m³</option>
+            <option value="900">Ąžuolas – 900 €/m³</option>
+            <option value="400">Pušis – 400 €/m³</option>
+            <option value="500">Klevas – 500 €/m³</option>
+            <option value="600">Guosnis – 600 €/m³</option>
+            <option value="200">Debulė – 200 €/m³</option>
+        </select>
+        <!-- <input type="number" id="kaina" min="0" step="0.01" value=""> -->
 
         <button onclick="skaiciuoti()">Skaičiuoti</button>
         <button onclick="resetuoti()">Išvalyti</button>
+        <!-- <button onclick="isvalytiIstorija()">Išvalyti istoriją</button> -->
 
         <div class="rezultatai">
             <p>Vienos lentos tūris: <span id="turis-vienos"></span> m³</p>
@@ -33,6 +45,12 @@
             <p>Bendra kaina: <span id="bendra-kaina"></span> €</p>
             <p id="klaidos-pranesimas" style="color: red;"></p>
         </div>
+    </div>
+
+    <div class="istorija-blokas">
+        <h2>Skaičiavimų istorija</h2>
+        <ul id="istorijosSarasas"></ul>
+        <button class="btn-istorija" onclick="isvalytiIstorija()">Išvalyti istoriją</button>
     </div>
 
     <script src="script.js"></script>

@@ -110,5 +110,115 @@ button + button:hover {
     font-weight: bold;
 }
 
+.rezultatu-sarasas {
+    margin-top: 30px;
+    background-color: #fff9e6;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
 
+.irasas {
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    border-left: 4px solid #30a34b;
+}
 
+.clear-btn {
+  background-color: #dc3545;
+  margin-top: 10px;
+}
+
+.clear-btn:hover {
+  background-color: #a61c2c;
+}
+
+.istorija-blokas {
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+}
+
+.istorija-blokas h2 {
+    text-align: center;
+    color: #333;
+}
+
+#istorijosSarasas {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-istorija {
+    display: block;
+    width: 100%;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-istorija:hover {
+    background-color: #343a40;
+}
+#istorijosSarasas li {
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
+
+#istorijosSarasas {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#istorijosSarasas li {
+    background-color: #c6ccd3;
+    /* border-left: 4px solid #30a34b; */
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#istorijosSarasas li:hover {
+    transform: scale(1.01);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #eefaf0;
+}
+
+.laiko-eilute {
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+#istorijosSarasas li div:last-child {
+    font-weight: bold;
+    color: #222;
+}
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
