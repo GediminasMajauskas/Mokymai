@@ -1,58 +1,22 @@
 <!DOCTYPE html>
-<html>
-   <head>
-        <title>Pagrindinis</title>
-        <link rel="stylesheet" href="css/index2.css">
-   </head>
-   <body>Labas </body>
-   <strong> - Important text </strong><br>
-   <b> - Bold text </b><br>
-<strong> - Important text </strong><br>
-<i> - Italic text </i><br>
-<em> - Emphasized text </em><br>
-<mark> - Marked text </mark><br>
-<small> - Small text </small><br>
-<del> - Deleted text </del><br>
-<ins> - Inserted text </ins><br>
-<sup> - Superscript text </sup><br>
-<sub> - Subscript text </sub><br>
-</br> - Naujos eilutės 
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>API</title>
+</head>
 <body>
-   <h4 title="paveiksleliai">Paveiksleliai</h4><br>
-   <img src="SVG/xls-svgrepo-com.svg" width="100">
-   <a href="https://youtube.com" width="100">
-      <img src="SVG/mp3-svgrepo-com.svg" width="100">
-   
-   <a href="https://Google.lt" width="100">
-      <img src="SVG/file-file-type-svgrepo-com.svg" width="100"> 
+    <div class="container"></div>
+
+    <form>
+        <input type="text" name="title" placeholder="Įvesk pavadinimą" required />
+        <textarea name="content" placeholder="Įvesk turinį" required></textarea>
+        <button type="submit">Pridėti naujieną</button>
+    </form>
+
+    <script src="js/index.js" defer></script>
+    <script src="js/details.js" defer></script>
+    <script src="js/create.js" defer></script>
 </body>
-   
-
-
-<ul>
-   <li>
-       <ul>
-           <li><span>Item 1</span></li>
-           <li><span>Item 2</span></li>
-           <li><span>Item 3</span></li>
-       </ul>
-   </li>
-   <li>
-       <ul>
-           <li><span>Item 1</span></li>
-           <li><span>Item 2</span></li>
-           <li><span>Item 3</span></li>
-       </ul>
-   </li>
-   <li>
-       <ul>
-           <li><span>Item 1</span></li>
-           <li><span>Item 2</span></li>
-           <li><span>Item 3</span></li>
-       </ul>
-   </li>
-</ul>
-     
- 
-   
+</html>

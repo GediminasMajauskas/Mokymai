@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "axios": "^1.10.0",
+    "tailwindcss": "^4.1.11"
+  },
+  "name": "mokymai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "genetuoti": "npx @tailwindcss/cli -i ./scss/stilius.scss -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GediminasMajauskas/Mokymai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GediminasMajauskas/Mokymai/issues"
+  },
+  "homepage": "https://github.com/GediminasMajauskas/Mokymai#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
